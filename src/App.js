@@ -13,15 +13,15 @@ function App() {
   return (
     <div>
       <MyNav />
-      <Jumbotron fluid className="App-header">
+      <Jumbotron fluid className="App-header" style={{ marginBottom: "0px" }}>
         <h1>HI, I'M ROSS</h1>
         <p>Software Engineer and UX Artist</p>
       </Jumbotron>
-      <AboutFrame />
       <ExperienceFrame />
       <ServicesFrame />
       <PortfolioFrame />
       <ContactFrame />
+      <AboutFrame />
       <FooterFrame />
     </div>
   );

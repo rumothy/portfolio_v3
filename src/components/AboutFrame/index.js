@@ -6,9 +6,21 @@ import Image from "react-bootstrap/Image";
 
 const AboutFrame = () => {
   return (
-    <Container className="" style={{ minHeight: "65vh" }}>
-      <Row>
-        <Col style={{ color: "#0f4c81", marginTop: "150px" }}>
+    <Container
+      className=""
+      style={{ minHeight: "65vh", background: "#F5F5F5" }}
+      fluid
+    >
+      <Row style={{ padding: "0 55px 0 55px" }}>
+        <Col
+          style={{
+            color: "#0f4c81",
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            justifyContent: "center",
+          }}
+        >
           <h2>A Little About Me</h2>
           <p>
             Hey! My name is Ross. I'm an experienced developer with a passion
