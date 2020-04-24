@@ -4,9 +4,9 @@ import Nav from "react-bootstrap/Nav";
 class MyNav extends Component {
   render() {
     return (
-      <Nav defaultActiveKey="/home" as="ul">
+      <Nav defaultActiveKey="#" as="ul">
         <Nav.Item as="li">
-          <Nav.Link style={{ color: "#0f4c81", height: "32px" }} href="/home">
+          <Nav.Link style={{ color: "#0f4c81", height: "32px" }} href="#">
             Ross Agginie
           </Nav.Link>
         </Nav.Item>
