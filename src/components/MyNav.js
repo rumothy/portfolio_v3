@@ -11,9 +11,6 @@ class MyNav extends Component {
           </Nav.Link>
         </Nav.Item>
         <Nav.Item as="li">
-          <Nav.Link eventKey="aboutLink">About</Nav.Link>
-        </Nav.Item>
-        <Nav.Item as="li">
           <Nav.Link eventKey="experiencesLink">Experience</Nav.Link>
         </Nav.Item>
         <Nav.Item as="li">
@@ -24,6 +21,9 @@ class MyNav extends Component {
         </Nav.Item>
         <Nav.Item as="li">
           <Nav.Link eventKey="contactLink">Contact</Nav.Link>
+        </Nav.Item>
+        <Nav.Item as="li">
+          <Nav.Link eventKey="aboutLink">About</Nav.Link>
         </Nav.Item>
       </Nav>
     );
