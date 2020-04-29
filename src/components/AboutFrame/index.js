@@ -23,7 +23,7 @@ const AboutFrame = () => {
           <Image
             width={256}
             height={256}
-            src="ross_proffessional.jpg"
+            src={`${process.env.PUBLIC_URL}/ross_proffessional.jpg`}
             roundedCircle
           />
         </Col>
