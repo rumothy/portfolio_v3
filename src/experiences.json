@@ -6,7 +6,12 @@
     "City": "Orlando",
     "From": "August 2019",
     "To": "Present",
-    "Description": "did alot of cool stuff. DId a GREAT job. Everybody agreed."
+    "Description": [
+      "did alot of cool stuff. DId a GREAT job. Everybody agreed.",
+      "implemented all the tech thingys.",
+      "Then did more stuff",
+      "Like A LOT!"
+    ]
   },
   {
     "Id": 2,
@@ -15,6 +20,8 @@
     "City": "Orlando",
     "From": "November 2014",
     "To": "July 2019",
-    "Description": "Really helped out, made lots-a $$. Tried out new techniques. LEarned alot. I'm a REALLY good programmingineer now. Booyah!@#$#"
+    "Description": [
+      "Really helped out, made lots-a $$. Tried out new techniques. LEarned alot. I'm a REALLY good programmingineer now. Booyah!@#$#"
+    ]
   }
 ]
