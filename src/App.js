@@ -9,6 +9,7 @@ import PortfolioFrame from "./components/PortfolioFrame";
 import ContactFrame from "./components/ContactFrame";
 import FooterFrame from "./components/FooterFrame";
 import experiences from "./experiences.json";
+import icons from "./icons.json";
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
         <h1>HI, I'M ROSS</h1>
         <p>Software Engineer and UX Artist</p>
       </Jumbotron>
-      <ExperienceFrame experiences={experiences} />
+      <ExperienceFrame experiences={experiences} icons={icons} />
       <ServicesFrame />
       <PortfolioFrame />
       <ContactFrame />
