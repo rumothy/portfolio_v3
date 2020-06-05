@@ -16,9 +16,13 @@ function getImages(count, text) {
   return images;
 }
 
+//index: 0 1 2 3, len: 4
+//icons: 1 2 3 4
+
 function ExperienceFrame(props) {
-  const icons = getImages(18, "icon");
+  const icons = getImages(4, "icon");
   const places = getImages(6, "workplace");
+  icons[2 - 1] = `${process.env.PUBLIC_URL}/images/bootstrap.png`;
   return (
     <Container
       fluid
@@ -42,7 +46,7 @@ function ExperienceFrame(props) {
             <Row>
               {icons.map((image) => (
                 <Col md="auto" key={image} style={{ padding: "0px 15px 15px" }}>
-                  <Image src={image} />
+                  <Image width={128} height={128} src={image} />
                 </Col>
               ))}
             </Row>
