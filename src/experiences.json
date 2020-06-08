@@ -2,6 +2,7 @@
   {
     "Id": 1,
     "Company": "Rumothy LLC",
+    "Image": "rumothyLLC.png",
     "Position": "Software Developer & Mentor",
     "City": "Orlando",
     "From": "August 2019",
@@ -16,6 +17,7 @@
   {
     "Id": 2,
     "Company": "Benchmark Electronics",
+    "Image": "benchmark.jpg",
     "Position": "Software Engineer",
     "City": "Orlando",
     "From": "November 2014",
@@ -23,5 +25,25 @@
     "Description": [
       "Really helped out, made lots-a $$. Tried out new techniques. LEarned alot. I'm a REALLY good programmingineer now. Booyah!@#$#"
     ]
+  },
+  {
+    "Id": 3,
+    "Company": "Thomson Reuters",
+    "Image": "thomosnreuters.png",
+    "Position": "Software Engineer",
+    "City": "Orlando",
+    "From": "",
+    "To": "",
+    "Description": ["mmm. hmm."]
+  },
+  {
+    "Id": 4,
+    "Company": "Retail Technologies Corporation",
+    "Image": "rtc.png",
+    "Position": "Software Engineer",
+    "City": "Orlando",
+    "From": "",
+    "To": "",
+    "Description": ["yep. here too."]
   }
 ]

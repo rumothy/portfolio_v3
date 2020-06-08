@@ -25,8 +25,12 @@ function decorateIconPaths(icons) {
 function ExperienceFrame(props) {
   const icons = decorateIconPaths(props.icons);
 
-  const places = getImages(6, "workplace");
-
+  let places = getImages(4, "workplace");
+  let workplaces = props.experiences;
+  places[1 - 1] = `${process.env.PUBLIC_URL}/images/${workplaces[0].Image}`;
+  places[2 - 1] = `${process.env.PUBLIC_URL}/images/${workplaces[1].Image}`;
+  places[3 - 1] = `${process.env.PUBLIC_URL}/images/${workplaces[2].Image}`;
+  places[4 - 1] = `${process.env.PUBLIC_URL}/images/${workplaces[3].Image}`;
   return (
     <Container
       fluid
@@ -59,25 +63,26 @@ function ExperienceFrame(props) {
         <Col>
           <Container>
             <h5>Some places where I've worked:</h5>
-            <Row>
-              {places.map((place) => (
-                <Col
-                  md="auto"
-                  key={place}
-                  style={{
-                    padding: "0px 15px 15px",
-                    width: "256px",
-                    height: "256px",
-                    border: "dashed",
-                  }}
-                >
-                  <a href="#">
-                    <Image src={place} />
-                  </a>
-                  <p>Work place name</p>
-                </Col>
-              ))}
-            </Row>
+
+            {places.map((place) => (
+              <Row
+                md="auto"
+                key={place}
+                style={{
+                  padding: "0px",
+                  width: "256px",
+                  height: "128",
+                }}
+              >
+                <div style={{ width: "256px", height: "90px", margin: "1px" }}>
+                  <Image
+                    style={{ width: "100%", height: "100%" }}
+                    src={place}
+                  />
+                </div>
+                <p>{place.Company}</p>
+              </Row>
+            ))}
           </Container>
         </Col>
       </Row>
