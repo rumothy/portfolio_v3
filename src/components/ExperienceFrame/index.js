@@ -3,7 +3,6 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
-import { Link } from "react-router-dom";
 //src={`${process.env.PUBLIC_URL}/logo192.png`}
 
 //src="https://placehold.it/200x200?text=SecondText"
@@ -43,18 +42,26 @@ function ExperienceFrame(props) {
       <Row style={{ textAlign: "center" }}>
         <Col />
         <Col>
-          <h2>Experience</h2>
+          <h2 style={{ textAlign: "center", margin: "50px" }}>Experience</h2>
         </Col>
         <Col />
       </Row>
       <Row>
         <Col>
           <Container>
-            <h5>Some technologies I've worked with:</h5>
+            <h5 style={{ marginBottom: "50px" }}>
+              Some technologies I've worked with:
+            </h5>
             <Row>
               {icons.map((image) => (
                 <Col md="auto" key={image} style={{ padding: "0px 15px 15px" }}>
-                  <Image width={64} height={64} src={image} />
+                  <Image
+                    className="img-responsive"
+                    width={64}
+                    height={64}
+                    src={image}
+                    style={{ filter: "grayscale(100%)" }}
+                  />
                 </Col>
               ))}
             </Row>
@@ -62,7 +69,9 @@ function ExperienceFrame(props) {
         </Col>
         <Col>
           <Container>
-            <h5>Some places where I've worked:</h5>
+            <h5 style={{ marginBottom: "50px" }}>
+              Some places where I've worked:
+            </h5>
 
             {places.map((place) => (
               <Row
@@ -76,7 +85,11 @@ function ExperienceFrame(props) {
               >
                 <div style={{ width: "256px", height: "90px", margin: "1px" }}>
                   <Image
-                    style={{ width: "100%", height: "100%" }}
+                    style={{
+                      width: "100%",
+                      height: "100%",
+                      filter: "grayscale(100%)",
+                    }}
                     src={place}
                   />
                 </div>
