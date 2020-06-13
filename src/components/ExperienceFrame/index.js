@@ -42,7 +42,7 @@ function ExperienceFrame(props) {
       <Row style={{ textAlign: "center" }}>
         <Col />
         <Col>
-          <h2 style={{ textAlign: "center", margin: "50px" }}>Experience</h2>
+          <h2 style={{ textAlign: "center", margin: "50px" }}>EXPERIENCE</h2>
         </Col>
         <Col />
       </Row>

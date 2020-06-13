@@ -13,18 +13,26 @@ const ServicesFrame = () => {
         color: "#0f4c81",
       }}
     >
-      <h2 style={{ textAlign: "center", margin: "50px" }}>Services</h2>
+      <Row style={{ textAlign: "center" }}>
+        <Col />
+        <Col>
+          <h2 style={{ textAlign: "center", margin: "50px" }}>WHAT I CAN DO</h2>
+        </Col>
+        <Col />
+      </Row>
       <Row>
         <Col>
           <Card>
-            <Card.Header>Web development</Card.Header>
+            <Card.Header>Fullstack web development</Card.Header>
             <Card.Body>
               <blockquote className="blockquote mb-0">
                 <p>I build websites!</p>
-                {/* <footer className="blockquote-footer">
-                  Someone famous in{" "}
-                  <cite title="Source Title">Source Title</cite>
-                </footer> */}
+                <ul>
+                  <li>MongoDB</li>
+                  <li>Express</li>
+                  <li>React</li>
+                  <li>Node.js</li>
+                </ul>
               </blockquote>
             </Card.Body>
           </Card>
@@ -35,6 +43,12 @@ const ServicesFrame = () => {
             <Card.Body>
               <blockquote className="blockquote mb-0">
                 <p>I write applications!</p>
+                <ul>
+                  <li>Software Architecture</li>
+                  <li>Domain Driven Design</li>
+                  <li>DevOps</li>
+                  <li>Clean Code</li>
+                </ul>
               </blockquote>
             </Card.Body>
           </Card>
