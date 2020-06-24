@@ -17,7 +17,7 @@ function App() {
       <MyNav />
       <Jumbotron fluid className="App-header" style={{ marginBottom: "0px" }}>
         <h1>HI, I'M ROSS</h1>
-        <p>Software Engineer and UX Artist</p>
+        <p>Software Engineer</p>
       </Jumbotron>
       <ExperienceFrame experiences={experiences} icons={icons} />
       <ServicesFrame />

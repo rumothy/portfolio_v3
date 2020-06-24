@@ -10,5 +10,12 @@
   "mongodb.png",
   "node.png",
   "python.png",
-  "react-bootstrap.png"
+  "react-bootstrap.png",
+  "graphql.png",
+  "vscode.png",
+  "visualstudio.png",
+  "haskell.png",
+  "cplusplus.png",
+  "csharp.png",
+  "php.png"
 ]

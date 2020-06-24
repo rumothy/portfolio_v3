@@ -41,7 +41,7 @@ const AboutFrame = () => {
           <h2>A Little About Me</h2>
           <p>
             Hey! My name is Ross. I'm an experienced developer with a passion
-            for front end design.{" "}
+            for software architecture.{" "}
           </p>
           <p>
             My principles are continuous learning through the creation of real

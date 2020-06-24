@@ -9,7 +9,7 @@ const PortfolioFrame = () => {
   const ffmSiteImg = `${process.env.PUBLIC_URL}/images/ffm.png`;
   const rumothySiteImg = `${process.env.PUBLIC_URL}/images/rumothysite.png`;
   const portfolioSiteImg = `${process.env.PUBLIC_URL}/images/portfolio.png`;
-
+  const gitsearchImg = `${process.env.PUBLIC_URL}/images/gitsearch.png`;
   return (
     <Container
       fluid
@@ -34,7 +34,7 @@ const PortfolioFrame = () => {
             <Card.Img variant="top" src={ffmSiteImg} />
             <Card.Body>
               <Card.Title>Fair Focus Media</Card.Title>
-              <Card.Text>Built with React, HTML/CSS, JavaScript.</Card.Text>
+              <Card.Text>Built with HTML/CSS, JavaScript, and PHP.</Card.Text>
               <Button variant="primary">
                 <a style={{ color: "white" }} href="http://fairfocusmedia.org">
                   See it
@@ -64,9 +64,24 @@ const PortfolioFrame = () => {
             <Card.Img variant="top" src={portfolioSiteImg} />
             <Card.Body>
               <Card.Title>This site</Card.Title>
-              <Card.Text>Built with React, HTML/CSS, JavaScript.</Card.Text>
+              <Card.Text>Built with React.</Card.Text>
               <Button variant="primary">
                 <a style={{ color: "white" }} href="#">
+                  See it
+                </a>
+              </Button>
+            </Card.Body>
+          </Card>
+        </Col>
+
+        <Col>
+          <Card style={{ width: "18rem" }}>
+            <Card.Img variant="top" src={gitsearchImg} />
+            <Card.Body>
+              <Card.Title>GitSearch</Card.Title>
+              <Card.Text>Built with GraphQL and React.</Card.Text>
+              <Button variant="primary">
+                <a style={{ color: "white" }} href="https://rumothy.github.io/gitsearch/">
                   See it
                 </a>
               </Button>
