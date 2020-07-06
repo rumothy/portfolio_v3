@@ -7,6 +7,7 @@ import Image from "react-bootstrap/Image";
 const AboutFrame = () => {
   return (
     <Container
+      id="about"
       className=""
       style={{ minHeight: "65vh", background: "#F5F5F5", padding: "50px" }}
       fluid
@@ -20,12 +21,12 @@ const AboutFrame = () => {
             justifyContent: "center",
           }}
         >
-          <Image
+          {/* <Image
             width={256}
             height={256}
             src={`${process.env.PUBLIC_URL}/ross_proffessional.jpg`}
             roundedCircle
-          />
+          /> */}
         </Col>
       </Row>
       <Row style={{ padding: "0 55px 0 55px" }}>

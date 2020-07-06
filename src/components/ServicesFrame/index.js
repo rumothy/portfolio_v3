@@ -7,6 +7,7 @@ import Col from "react-bootstrap/Col";
 const ServicesFrame = () => {
   return (
     <Container
+      id="services"
       fluid
       style={{
         minHeight: "65vh",

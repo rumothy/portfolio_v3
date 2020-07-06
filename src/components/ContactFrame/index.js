@@ -7,6 +7,7 @@ import Col from "react-bootstrap/Col";
 const ContactFrame = () => {
   return (
     <Container
+      id="contact"
       fluid
       style={{
         minHeight: "25vh",

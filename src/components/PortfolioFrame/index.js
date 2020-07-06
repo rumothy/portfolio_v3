@@ -12,6 +12,7 @@ const PortfolioFrame = () => {
   const gitsearchImg = `${process.env.PUBLIC_URL}/images/gitsearch.png`;
   return (
     <Container
+      id="portfolio"
       fluid
       style={{
         minHeight: "65vh",
@@ -81,7 +82,10 @@ const PortfolioFrame = () => {
               <Card.Title>GitSearch</Card.Title>
               <Card.Text>Built with GraphQL and React.</Card.Text>
               <Button variant="primary">
-                <a style={{ color: "white" }} href="https://rumothy.github.io/gitsearch/">
+                <a
+                  style={{ color: "white" }}
+                  href="https://rumothy.github.io/gitsearch/"
+                >
                   See it
                 </a>
               </Button>

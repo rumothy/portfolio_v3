@@ -11,19 +11,29 @@ class MyNav extends Component {
           </Nav.Link>
         </Nav.Item>
         <Nav.Item as="li">
-          <Nav.Link eventKey="experiencesLink">Experience</Nav.Link>
+          <Nav.Link eventKey="experiencesLink" href="#experience">
+            Experience
+          </Nav.Link>
         </Nav.Item>
         <Nav.Item as="li">
-          <Nav.Link eventKey="servicesLink">Services</Nav.Link>
+          <Nav.Link eventKey="servicesLink" href="#services">
+            Services
+          </Nav.Link>
         </Nav.Item>
         <Nav.Item as="li">
-          <Nav.Link eventKey="portfolioLink">Portfolio</Nav.Link>
+          <Nav.Link eventKey="portfolioLink" href="#portfolio">
+            Portfolio
+          </Nav.Link>
         </Nav.Item>
         <Nav.Item as="li">
-          <Nav.Link eventKey="contactLink">Contact</Nav.Link>
+          <Nav.Link eventKey="contactLink" href="#contact">
+            Contact
+          </Nav.Link>
         </Nav.Item>
         <Nav.Item as="li">
-          <Nav.Link eventKey="aboutLink">About</Nav.Link>
+          <Nav.Link eventKey="aboutLink" href="#about">
+            About
+          </Nav.Link>
         </Nav.Item>
       </Nav>
     );
